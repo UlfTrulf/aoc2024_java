@@ -10,9 +10,8 @@ public class part1 {
         Integer solution = 0;
         String [] lines = input.split("\\n");
         for (int i = 0; i < lines.length; i++) {
-            char [] chars = lines[i].toCharArray();
-            for (int j = 0; j < chars.length; j++) {
-                if (chars[j] == 'X') {
+            for (int j = 0; j < lines[i].length() ; j++) {
+                if (lines[i].charAt(j) == 'X') {
                     ArrayList<char[]> words = get_chars(lines, j, i);
                     for (char[] word: words) {
                         if(String.valueOf(word).equals("XMAS") || String.valueOf(word).equals("SAMX")){
@@ -27,78 +26,31 @@ public class part1 {
 
     private static ArrayList<char []> get_chars (String [] lines, int x, int y) {
         ArrayList <char []> words = new ArrayList<char[]>(8);
-        char [] word1 = new char[4];
-        for(int n = 0; n < 4; n++) {
-            try {
-                word1[n] = lines[y + n].toCharArray()[x];
-            } catch (IndexOutOfBoundsException e) {
-                break;
+
+        int[][] directions = {
+                {1, 0},
+                {-1, 0},
+                {0, 1},
+                {0, -1},
+                {1, 1},
+                {-1, -1},
+                {-1, 1},
+                {1, -1}
+        };
+
+        for (int[] dir : directions) {
+            char[] word = new char[4];
+            for (int k = 0; k < 4; k++) {
+                int m = y + k * dir[0];
+                int n = x + k * dir[1];
+                if (m >= 0 && m < lines.length && n >= 0 && n < lines[m].length()) {
+                    word[k] = lines[m].charAt(n);
+                } else {
+                    break;
+                }
             }
+            words.add(word);
         }
-        words.add(word1);
-        char [] word2 = new char[4];
-        for(int n = 0; n < 4; n++) {
-            try {
-                word2[n] = lines[y - n].toCharArray()[x];
-            } catch (IndexOutOfBoundsException e) {
-                break;
-            }
-        }
-        words.add(word2);
-        char [] word3 = new char[4];
-        for(int n = 0; n < 4; n++) {
-            try {
-                word3[n] = lines[y].toCharArray()[x + n];
-            } catch (IndexOutOfBoundsException e) {
-                break;
-            }
-        }
-        words.add(word3);
-        char [] word4 = new char[4];
-        for(int n = 0; n < 4; n++) {
-            try {
-                word4[n] = lines[y].toCharArray()[x - n];
-            } catch (IndexOutOfBoundsException e) {
-                break;
-            }
-        }
-        words.add(word4);
-        char [] word5 = new char[4];
-        for(int n = 0; n < 4; n++) {
-            try {
-                word5[n] = lines[y + n].toCharArray()[x + n];
-            } catch (IndexOutOfBoundsException e) {
-                break;
-            }
-        }
-        words.add(word5);
-        char [] word6 = new char[4];
-        for(int n = 0; n < 4; n++) {
-            try {
-                word6[n] = lines[y - n].toCharArray()[x - n];
-            } catch (IndexOutOfBoundsException e) {
-                break;
-            }
-        }
-        words.add(word6);
-        char [] word7 = new char[4];
-        for(int n = 0; n < 4; n++) {
-            try {
-                word7[n] = lines[y - n].toCharArray()[x + n];
-            } catch (IndexOutOfBoundsException e) {
-                break;
-            }
-        }
-        words.add(word7);
-        char [] word8 = new char[4];
-        for(int n = 0; n < 4; n++) {
-            try {
-                word8[n] = lines[y + n].toCharArray()[x - n];
-            } catch (IndexOutOfBoundsException e) {
-                break;
-            }
-        }
-        words.add(word8);
         return words;
     }
 }

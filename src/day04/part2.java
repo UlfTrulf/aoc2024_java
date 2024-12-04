@@ -8,9 +8,8 @@ public class part2 {
         Integer solution = 0;
         String [] lines = input.split("\\n");
         for (int i = 1; i < lines.length - 1; i++) {
-            char [] chars = lines[i].toCharArray();
-            for (int j = 1; j < chars.length - 1; j++) {
-                if (chars[j] == 'A') {
+            for (int j = 1; j < lines[i].length() - 1 ; j++) {
+                if (lines[i].charAt(j) == 'A') {
                     ArrayList<char[]> words = get_chars(lines, j, i);
                     int count = 0;
                     for (char[] word: words) {
@@ -31,15 +30,15 @@ public class part2 {
         ArrayList <char []> words = new ArrayList<char[]>(2);
 
         char [] word1 = new char[3];
-        word1[0] = lines[y + 1].toCharArray()[x + 1];
-        word1[1] = lines[y].toCharArray()[x];
-        word1[2] = lines[y - 1].toCharArray()[x - 1];
+        word1[0] = lines[y + 1].charAt(x + 1);
+        word1[1] = lines[y].charAt(x);
+        word1[2] = lines[y - 1].charAt(x - 1);
         words.add(word1);
 
         char [] word2 = new char[3];
-        word2[0] = lines[y + 1].toCharArray()[x - 1];
-        word2[1] = lines[y].toCharArray()[x];
-        word2[2] = lines[y - 1].toCharArray()[x + 1];
+        word2[0] = lines[y + 1].charAt(x - 1);
+        word2[1] = lines[y].charAt(x);
+        word2[2] = lines[y - 1].charAt(x + 1);
         words.add(word2);
 
         return words;
