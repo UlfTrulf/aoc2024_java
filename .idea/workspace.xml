@@ -10,9 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3730885-2a04-48d2-97f4-fed41229abfc" name="Changes" comment="day07">
-      <change afterPath="$PROJECT_DIR$/input/day07.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/part1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/part2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/day08.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/part1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/part2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/Dokumente u.a/Code/AdventOfCode/aoc2024_java/src/day07",
+    "last_opened_file_path": "D:/Dokumente u.a/Code/AdventOfCode/aoc2024_java/src/day08",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -59,11 +59,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dokumente u.a\Code\AdventOfCode\aoc2024_java\src\day08" />
       <recent name="D:\Dokumente u.a\Code\AdventOfCode\aoc2024_java\src\day07" />
       <recent name="D:\Dokumente u.a\Code\AdventOfCode\aoc2024_java\src\day06" />
       <recent name="D:\Dokumente u.a\Code\AdventOfCode\aoc2024_java\src\day05" />
       <recent name="D:\Dokumente u.a\Code\AdventOfCode\aoc2024_java\src" />
-      <recent name="D:\Dokumente u.a\Code\AdventOfCode\aoc2024_java\src\day04" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Dokumente u.a\Code\AdventOfCode\aoc2024_java\input" />
@@ -74,7 +74,7 @@
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="aoc2024_java" />
-      <option name="PROGRAM_PARAMETERS" value="7 2" />
+      <option name="PROGRAM_PARAMETERS" value="8 2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -160,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1733529209771</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="day07">
+      <created>1733577441016</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733577441016</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
