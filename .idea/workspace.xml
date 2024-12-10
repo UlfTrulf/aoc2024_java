@@ -10,10 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3730885-2a04-48d2-97f4-fed41229abfc" name="Changes" comment="beginn day10">
-      <change afterPath="$PROJECT_DIR$/input/day10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/part1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/part2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/day10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input/day10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day10/part1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day10/part1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day10/part2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day10/part2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="1gaw7kyl" />
@@ -38,6 +39,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
   <component name="ProjectId" id="2pciUkCbfEqm3XTKVGJBbW4lbqH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -48,9 +52,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/Dokumente u.a/Code/AdventOfCode/aoc2024_java/src/day10",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
@@ -74,7 +80,7 @@
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="aoc2024_java" />
-      <option name="PROGRAM_PARAMETERS" value="10 1" />
+      <option name="PROGRAM_PARAMETERS" value="10 2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,6 +100,12 @@
       <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/aoc2024_java_jar/day02.jar" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.aoth" />
+      <item itemvalue="JAR Application.aoc2024_java.jar" />
+      <item itemvalue="JAR Application.day02.jar" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.aoth" />
