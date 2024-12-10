@@ -24,7 +24,8 @@ public class part1 {
             int tops = 0;
             ArrayList<Point> path = new ArrayList<>();
             path.add(start);
-            for (Point trail: path) {
+            for (int i = 0; i < path.size(); i++) {
+                Point trail = path.get(i);
                 if (trail.z == 9) {
                     tops ++;
                 } else {
