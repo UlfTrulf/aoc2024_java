@@ -1,45 +1,41 @@
 package day11;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 public class part2 {
     public void run(String input) {
         input = input.replace("\n", "");
-        String[] initial = input.split(" ");
-        ArrayList<String> stones = new ArrayList<>(Arrays.asList(initial));
+        String [] initial = input.split(" ");
+        Map<Long, Long> stones = new HashMap<>();
+        for (String stone: initial) {
+            stones.put(Long.parseLong(stone), stones.getOrDefault(Long.parseLong(stone), 0L) + 1);
+        }
         int iterations = 75;
-        int total_size = 0;
-        ArrayList<Integer> sizes = new ArrayList<>();
-        stones.parallelStream().forEach((stone) -> {
-            sizes.add(get_size(iterations, stone));
-        });
-        for (int s: sizes) {
-            total_size += s;
-        }
+        for (int i = 0; i < iterations; i++) {
+            Map<Long, Long> new_stones = new HashMap<>();
+            for (Map.Entry<Long, Long> entry : stones.entrySet()) {
+                long stone = entry.getKey();
+                long amount = entry.getValue();
+                if (stone  == 0) {
+                    new_stones.put(1L, new_stones.getOrDefault(1L, 0L) + amount);
+                } else if (String.valueOf(stone).length() % 2 == 0) {
+                    String first = String.valueOf(stone).substring(0, String.valueOf(stone).length() / 2);
+                    String second = String.valueOf(stone).substring(String.valueOf(stone).length() / 2);
+                    new_stones.put(Long.parseLong(first), new_stones.getOrDefault(Long.parseLong(first), 0L) + amount);
+                    new_stones.put(Long.parseLong(second), new_stones.getOrDefault(Long.parseLong(second), 0L) + amount);
 
-        System.out.println(total_size);
-    }
-
-
-    public int get_size(int iterations, String start) {
-        if (iterations == 0) {
-            return 1;
+                } else {
+                    new_stones.put((stone * 2024), new_stones.getOrDefault((stone * 2024), 0L) + amount);
+                }
+            }
+            stones = new_stones;
         }
-        ArrayList<String> new_stones = new ArrayList<>();
-        if (Long.parseLong(start) == 0) {
-            new_stones.add("1");
-        } else if (start.length() % 2 == 0) {
-            new_stones.add(String.valueOf(Long.parseLong(start.substring(0, start.length() / 2))));
-            new_stones.add(String.valueOf(Long.parseLong(start.substring(start.length() / 2))));
-        } else {
-            new_stones.add(String.valueOf(Long.parseLong(start) * 2024));
+        long total = 0;
+        for (long c: stones.values()) {
+            total += c;
         }
-        int size = 0;
-        for (String stone: new_stones) {
-            size += get_size(iterations - 1, stone);
-        }
-        return size;
+        System.out.println(total);
     }
 
 
