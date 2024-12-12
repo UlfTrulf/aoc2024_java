@@ -9,9 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3730885-2a04-48d2-97f4-fed41229abfc" name="Changes" comment="beginn day10">
+    <list default="true" id="e3730885-2a04-48d2-97f4-fed41229abfc" name="Changes" comment="day11 part 2 .. just hash lul">
+      <change afterPath="$PROJECT_DIR$/input/day12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day12/part1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day12/part2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day11/part2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day11/part2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,26 +50,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Dokumente u.a/Code/AdventOfCode/aoc2024_java/src/day10&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Dokumente u.a/Code/AdventOfCode/aoc2024_java/src/day12",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dokumente u.a\Code\AdventOfCode\aoc2024_java\src\day12" />
       <recent name="D:\Dokumente u.a\Code\AdventOfCode\aoc2024_java\src\day10" />
       <recent name="D:\Dokumente u.a\Code\AdventOfCode\aoc2024_java\src\day09" />
       <recent name="D:\Dokumente u.a\Code\AdventOfCode\aoc2024_java\src\day08" />
       <recent name="D:\Dokumente u.a\Code\AdventOfCode\aoc2024_java\src\day07" />
-      <recent name="D:\Dokumente u.a\Code\AdventOfCode\aoc2024_java\src\day06" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Dokumente u.a\Code\AdventOfCode\aoc2024_java\input" />
@@ -78,7 +80,7 @@
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="aoc2024_java" />
-      <option name="PROGRAM_PARAMETERS" value="11 2" />
+      <option name="PROGRAM_PARAMETERS" value="12 2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -191,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1733762819229</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="day11 part 2 .. just hash lul">
+      <created>1733946106230</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1733946106230</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,7 +226,8 @@
     <MESSAGE value="day08" />
     <MESSAGE value="day09" />
     <MESSAGE value="beginn day10" />
-    <option name="LAST_COMMIT_MESSAGE" value="beginn day10" />
+    <MESSAGE value="day11 part 2 .. just hash lul" />
+    <option name="LAST_COMMIT_MESSAGE" value="day11 part 2 .. just hash lul" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
