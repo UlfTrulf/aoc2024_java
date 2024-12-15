@@ -9,10 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3730885-2a04-48d2-97f4-fed41229abfc" name="Changes" comment="day12">
-      <change afterPath="$PROJECT_DIR$/input/day14.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day14/part1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day14/part2.java" afterDir="false" />
+    <list default="true" id="e3730885-2a04-48d2-97f4-fed41229abfc" name="Changes" comment="day14">
+      <change afterPath="$PROJECT_DIR$/input/day15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day15/part1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day15/part2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +56,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Dokumente u.a/Code/AdventOfCode/aoc2024_java/src/day14",
+    "last_opened_file_path": "D:/Dokumente u.a/Code/AdventOfCode/aoc2024_java/src/day15",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -64,11 +64,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dokumente u.a\Code\AdventOfCode\aoc2024_java\src\day15" />
       <recent name="D:\Dokumente u.a\Code\AdventOfCode\aoc2024_java\src\day14" />
       <recent name="D:\Dokumente u.a\Code\AdventOfCode\aoc2024_java\src\day12" />
       <recent name="D:\Dokumente u.a\Code\AdventOfCode\aoc2024_java\src\day10" />
       <recent name="D:\Dokumente u.a\Code\AdventOfCode\aoc2024_java\src\day09" />
-      <recent name="D:\Dokumente u.a\Code\AdventOfCode\aoc2024_java\src\day08" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Dokumente u.a\Code\AdventOfCode\aoc2024_java\input" />
@@ -79,7 +79,7 @@
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="aoc2024_java" />
-      <option name="PROGRAM_PARAMETERS" value="14 2" />
+      <option name="PROGRAM_PARAMETERS" value="15 2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -206,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1734032631884</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="day14">
+      <created>1734174346845</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1734174346845</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,7 +241,8 @@
     <MESSAGE value="beginn day10" />
     <MESSAGE value="day11 part 2 .. just hash lul" />
     <MESSAGE value="day12" />
-    <option name="LAST_COMMIT_MESSAGE" value="day12" />
+    <MESSAGE value="day14" />
+    <option name="LAST_COMMIT_MESSAGE" value="day14" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
